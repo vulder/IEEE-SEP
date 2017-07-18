@@ -19,6 +19,7 @@ public class FancyCMD implements Runnable {
 
       switch (in) {
         case "exit": 
+        case "shutdown": 
           running = false;
           break;
         case "genfancy":

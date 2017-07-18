@@ -24,6 +24,7 @@ public class FancyCMD implements Runnable {
         case "genfancy":
           System.out.print("Enter PW: ");
           String origPW = sc.next();
+
           System.out.print("Your fancy PW is: ");
           System.out.println(genFancyPW(origPW));
           break;

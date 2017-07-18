@@ -33,6 +33,7 @@ public class FancyCMD implements Runnable {
           break;
       }
     }
+    sc.close();
 
     System.out.println("Turning fanciness offfff :(");
   }

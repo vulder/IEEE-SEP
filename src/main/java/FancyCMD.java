@@ -48,6 +48,6 @@ public class FancyCMD implements Runnable {
     StringBuilder revPW = new StringBuilder(DAT_PW);
     String silencePadding = "1!";
 
-    return DAT_PW + revPW.reverse().toString();
+    return DAT_PW + revPW.reverse().toString() + silencePadding;
   }
 }
